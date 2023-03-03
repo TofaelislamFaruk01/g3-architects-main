@@ -4,8 +4,13 @@
 * {
     margin: 0;
     font-family: 'Work Sans', sans-serif;
-    color: #424242;
+    color: #131313;
     /* background-color: aquamarine; */
+}
+p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
 }
 .button{
     background-color: #FF900E;
@@ -21,11 +26,12 @@
 ---------------------------------------- */
 .Architect{
     background: rgba(255, 144, 14, 0.1);
-    padding: 20px;
+    padding:70px 20px;
 }
 .Architect-nav-header{
-    font-weight: 700;
-    font-size: 30px;
+    /* font-weight:900; */
+    font-size: 35px;
+    font-weight:800;
     
 }
 nav{
@@ -35,7 +41,8 @@ nav{
 }
 nav li{
     list-style: none;
-    margin-right: 10px;
+    margin-left:40px;
+    /* margin-right: 50px; */
     font-weight: 500;
     font-size: 18px;
 }
@@ -52,8 +59,10 @@ nav ul{
     text-align: center;
 }
 .banner-header{
-     font-weight:700;
+    margin-top: 40px;
      margin-bottom: 20px;
+     font-size:40px;
+     /* color: #FF900E; */
 }
 .banner-image{
     width: 80%;
@@ -63,14 +72,73 @@ nav ul{
     width: 100%;
 }
 /* -------------------------------------------
-               header section complete
+            quick feature section 
 ---------------------------------------------- */
+.body-part{
+    /* width: 1000px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid red;
+    justify-content: center;
+    margin: 0 10%;
+}
+.quick-feature{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quick-feature-images{
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4 px;
+    margin: 8px;
+}
+.quick-feature-images img{
+    width: 90%;
+    height: 90%;
+}
+.quick-feature-details{
+    width: 50%;
+    padding: 50px;
+}
+.quick-feature-details h2{
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 28px;
+}
+.special1{
+    color:#727272
+}
+.special2{
+    color: #131313;
+}
+.special3{
+    color: #FF900E;
+}
+
+/* -------------------------------------------
+            quick feature section end
+---------------------------------------------- */
+
+
+
+
+
+
+
+
 
 
 /* responsiveness  */
 
 /* for mobile */
 @media only screen and (max-width: 576px) {
+    /* ---------------------------------
+                 header section
+    ---------------------------------------- */
     .Architect-nav-header{
         margin: 20px 0px;
     }
@@ -86,6 +154,18 @@ nav ul{
         nav li {
             margin-bottom: 10px;
         }
-  
+ /* -------------------------------------------
+            quick feature section 
+---------------------------------------------- */
+  .quick-feature-images{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .quick-feature{
+    flex-direction: column;
+  }
+
+/* -------------------------------------------
+            quick feature section end
+---------------------------------------------- */
 
 }
