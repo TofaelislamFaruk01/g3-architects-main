@@ -1,0 +1,91 @@
+/*-----------------------
+         for all
+ ------------------------ */
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+    color: #424242;
+    /* background-color: aquamarine; */
+}
+.button{
+    background-color: #FF900E;
+    margin-top: 32px;
+    padding: 20px 30px;
+    border: 0;
+    border-radius: 8px;
+    color: #FFFFFF;
+}
+
+/* ---------------------------------
+             header section
+---------------------------------------- */
+.Architect{
+    background: rgba(255, 144, 14, 0.1);
+    padding: 20px;
+}
+.Architect-nav-header{
+    font-weight: 700;
+    font-size: 30px;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 10px;
+    font-weight: 500;
+    font-size: 18px;
+}
+nav ul{
+    display: flex;
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.banner-details{
+    margin: 30px;
+    text-align: center;
+}
+.banner-header{
+     font-weight:700;
+     margin-bottom: 20px;
+}
+.banner-image{
+    width: 80%;
+    margin-bottom: 20px;
+}
+.banner-image img{
+    width: 100%;
+}
+/* -------------------------------------------
+               header section complete
+---------------------------------------------- */
+
+
+/* responsiveness  */
+
+/* for mobile */
+@media only screen and (max-width: 576px) {
+    .Architect-nav-header{
+        margin: 20px 0px;
+    }
+    nav{
+        flex-direction: column;
+            align-items: center;
+            
+    }
+        nav ul {
+            flex-direction: column;
+            justify-content: center;
+        }
+        nav li {
+            margin-bottom: 10px;
+        }
+  
+
+}
