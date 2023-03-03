@@ -120,10 +120,57 @@ nav ul{
 }
 
 /* -------------------------------------------
-            quick feature section end
+    feature experience section 
 ---------------------------------------------- */
-
-
+.feature-experience{
+    margin: 50px 0px;
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr); */
+    display: flex;
+    gap: 10px;
+}
+.feature-experience h1{
+    border-left: 5px solid #FF900E;
+    /* margin-left: 20px; */
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
+.feature-experience-details{
+    width: 50%;
+    padding-right: 15px;
+    border: 2px solid red;
+    font-size: 18px;
+}
+.feature-type{
+    /* border: 2px solid chartreuse; */
+    padding: 30px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(76, 76, 76, 0.06);
+    border-radius: 8px;
+    margin:20px 10px;
+}
+.feature-experience-image{
+    width: 50%;
+    border: 2px solid red;
+}
+.feature-experience-image img{
+    width: 90%;
+    padding: 5px;
+}
+.ten-year{
+    color: #FFFFFF;
+    font-size:x-large;
+    font-weight: 700;
+    padding: 15px 10px;
+}
+.year-btn{
+    position: absolute;
+    left: 46%;
+    top:334%;
+}
+/* -------------------------------------------
+    feature experience section
+---------------------------------------------- */
 
 
 
@@ -165,7 +212,23 @@ nav ul{
   }
 
 /* -------------------------------------------
-            quick feature section end
+    feature experience section
 ---------------------------------------------- */
+.feature-experience{
+    flex-direction: column;
+    align-items: center;
+    
+}
+.year-btn{
+    /* position: relative; */
+   /* left: 50%; */
+   position: relative;
+   left:0;
+}
+
+/* -------------------------------------------
+    feature experience section end
+---------------------------------------------- */
+
 
 }
