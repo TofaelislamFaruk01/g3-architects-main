@@ -212,7 +212,7 @@ nav ul{
 .icon-details:hover{
     transform: rotate(90deg);
 }
-
+/* ----------------------- */
 
 
 
@@ -278,6 +278,13 @@ nav ul{
 /* -------------------------------------------
        some fact section 
 ---------------------------------------------- */
-
+.fact-details{
+    width: 100%;
+    text-align: center;
+}
+.fact-icon{
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+}
 
 }
