@@ -185,7 +185,7 @@ nav ul{
     margin: 50px 0;
     /* text-align:left; */
 }
-.fact-header{
+.fact-header {
     font-size: 30px;
     font-weight: bold;
     margin: 20px 0;
@@ -212,7 +212,29 @@ nav ul{
 .icon-details:hover{
     transform: rotate(90deg);
 }
-/* ----------------------- */
+/* -------------------------
+          sponspor section
+--------------------------- */
+
+.sponspor-details{
+    text-align: center;
+    margin: 30px 20px;
+}
+.sponspor-header{
+    font-size: 30px;
+     font-weight: bold;
+    margin: 20px 0;
+}
+.sponspor-icon img{
+    height: 40px;
+    width: 120px;
+}
+.sponspor-icon{
+    display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        justify-items: center;
+        margin: 30px 20px;
+}
 
 
 
@@ -285,6 +307,14 @@ nav ul{
 .fact-icon{
     grid-template-columns: repeat(1, 1fr);
     gap: 20px;
+}
+
+/* -------------------------------------------
+       sponspor section 
+---------------------------------------------- */
+.sponspor-icon{
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
 }
 
 }
