@@ -127,8 +127,6 @@ nav ul{
 ---------------------------------------------- */
 .feature-experience{
     margin: 50px 0px;
-    /* display: grid;
-    grid-template-columns: repeat(2, 1fr); */
     display: flex;
     gap: 10px;
 }
@@ -141,7 +139,7 @@ nav ul{
 .feature-experience-details{
     width: 50%;
     padding-right: 15px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     font-size: 18px;
 }
 .feature-type{
@@ -154,7 +152,7 @@ nav ul{
 }
 .feature-experience-image{
     width: 50%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
    
 }
 .feature-experience-image img{
@@ -162,18 +160,23 @@ nav ul{
     /* padding: 5px; */
     height: 100%;
 }
+.year-btn {
+    position: absolute;
+    left: 49%;
+    margin-top: 837px;
+    background-color: #FF900E;
+    padding: 40px 60px;
+    border: 0;
+    border-radius: 8px;
+    color: #FFFFFF;
+}
 .ten-year{
     color: #FFFFFF;
     font-size:x-large;
     font-weight: 700;
-    padding: 15px 10px;
+    /* padding: 15px 10px; */
 }
-.year-btn{
-    position: absolute;
-    left: 50%;
-    /* top:334%; */
-    margin-top: 850px;
-}
+
 /* -------------------------------------------
    some fact section
 ---------------------------------------------- */
@@ -227,6 +230,7 @@ nav ul{
 .sponspor-icon img{
     height: 40px;
     width: 120px;
+    /* mix-blend-mode: luminosity; */
 }
 .sponspor-icon{
     display: grid;
@@ -242,22 +246,14 @@ footer{
     background-color: #FFF4E7;
     padding: 20px;
     text-align: center;
-    margin: 20px 10% 0 10%;
+    margin: 20px 10% 70px 10%;
 }
-
-
-
-
-
-
-
-
-
-
-
-/* responsiveness  */
+/* ---------------------------------
+        responsiveness
+------------------------------------  */
 
 /* for mobile */
+
 @media only screen and (max-width: 576px) {
     /* ---------------------------------
                  header section
@@ -305,12 +301,12 @@ footer{
    position: relative;
    left: 10px;
    margin-top: 10px;
+   width: 80%;
+   padding: 10px 5px;
 }
 .ten-year {
-    width: 90%;
     font-size:medium;
     font-weight: 500;
-    padding: 10px;
 }
 
 /* -------------------------------------------
